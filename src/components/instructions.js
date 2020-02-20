@@ -9,7 +9,10 @@ const Instructions = ({ instructions }) => {
           <div class="card-body">
             <h5 class="card-title">{instruction.id}</h5>
             <h6 class="card-subtitle mb-2 text-muted">{instruction.stepNumber}</h6>
-            <p class="card-text">{instruction.versionedContent.title}</p>
+            <p class="card-text">{instruction.versionContent[0].title}</p>
+            <p class="card-text">{instruction.versionContent[0].body}</p>
+            <p class="card-text">{instruction.versionContent[0].effectiveDate}</p>
+
           </div>
           </div>
       ))}
