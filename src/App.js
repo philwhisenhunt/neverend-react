@@ -4,7 +4,9 @@ import Contacts from './components/contacts'
 class App extends Component {
 
   state = {
-    contacts: []
+    contacts: [],
+    instructions: []
+    
   }
 
  
@@ -15,15 +17,31 @@ class App extends Component {
       this.setState({ contacts: data })
     })
     .catch(console.log)
+
+
+    //and now to access the instructions
+    fetch('https://uqnzta2geb.execute-api.us-east-1.amazonaws.com/default/FrontEndCodeChallenge')
+    .then(res => res.json())
+    .then((data) => {
+      this.setState({instructions: data})
+    })
+    .catch(console.log)
   }
 
 
 
   render() {
     return (
-      <Contacts contacts={this.state.contacts} />
+      <Contacts contacts={this.state.contacts}
+      Instructions instructions={this.state.instructions} />
+
     )
+
   }
+  
+
+
 
 }
 export default App
+
