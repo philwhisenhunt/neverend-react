@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
+import Contacts from './components/contacts'
 
 class App extends Component {
 
   state = {
     contacts: []
   }
-  ...
-}
 
-import React, { Component } from 'react';
-
-class App extends Component {
  
   componentDidMount() {
     fetch('http://jsonplaceholder.typicode.com/users')
@@ -20,4 +16,14 @@ class App extends Component {
     })
     .catch(console.log)
   }
+
+
+
+  render() {
+    return (
+      <Contacts contacts={this.state.contacts} />
+    )
+  }
+
 }
+export default App
