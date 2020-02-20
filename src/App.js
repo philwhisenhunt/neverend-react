@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Contacts from './components/contacts';
+//import Contacts from './components/contacts';
 import Instructions from './components/instructions';
+import Mainline from './components/mainline';
 
 class App extends Component {
 
   state = {
     contacts: [],
-    instructions: []
+    instructions: [],
+    mainline: []
     
   }
 
@@ -34,7 +36,11 @@ class App extends Component {
   render() {
 
     return (
+      <>
+      <td>More instructions</td>
+      <Mainline mainline = {this.state.mainline} />
       <Instructions instructions={this.state.instructions} />
+      </>
     )
     // return (
     //   <Contacts contacts={this.state.contacts}/>
