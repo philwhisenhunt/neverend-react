@@ -4,7 +4,11 @@ const Instructions = ({ instructions }) => {
   return (
     <div>
       <center><h1>Contact List</h1></center>
-      {instructions.map((instruction) => (
+      {instructions.sort(
+          function(a, b){
+              return a.stepNumber - b.stepNumber;
+          }
+      ).map((instruction) => (
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">{instruction.id}</h5>
