@@ -1,10 +1,13 @@
 import React from 'react'
+import photoz from '../images/photo-couch_2x.jpg'
 
 const Mainline = ({ instructions }) => {
     return (
       <div>
             <div class="navigator">Endless</div>
-                <div class="hero-image" style={{ backgroundImage: `url(require("/images/photo-couch_2x.jpg"))` }}>
+                <div class="hero-image">
+                    <img src={photoz} class="hero-image"/>
+
                     <div class="hero-text">
                         <h4>New Games & Accessories</h4>
                         <h1>Monthly Packages</h1>

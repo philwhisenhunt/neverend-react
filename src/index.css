@@ -46,15 +46,18 @@ body, html {
 
 /* The hero image */
 .hero-image {
-background-image: url("/images/photo-couch_2x.jpg");
+/* background-image: url("/images/photo-couch_2x.jpg");
+background-image: url("/images/photo-couch.jpg"); */
+
 
 /* Set a specific height */
-height: 100%;
+height: 20%;
+width: 100%;
 
 /* Position and center the image to scale nicely on all screens */
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+/* background-size: cover; */
 position: relative;
 }
 
