@@ -11,15 +11,15 @@ const Instructions = ({ instructions }) => {
       ).map((instruction) => (
 
         <div class="card">
-                  
+                <div class="column">
+    
 
-          <div class="card-body">
-            <h5 class="card-title">{instruction.id}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{instruction.stepNumber}</h6>
-            <p class="card-text">{instruction.versionContent[0].title}</p>
-            <p class="card-text">{instruction.versionContent[0].body}</p>
-            <p class="card-text">{instruction.versionContent[0].effectiveDate}</p>
-
+            <div class="card-body">
+              
+              <center><h1 class="card-subtitle mb-2 text-muted">0{instruction.stepNumber}</h1></center>
+              <center><p class="card-text">{instruction.versionContent[0].title}</p></center>
+              <p class="step-description">{instruction.versionContent[0].body}</p>
+            </div>
           </div>
           </div>
           

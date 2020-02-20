@@ -44,21 +44,21 @@ body, html {
   height: 100%;
 }
 
-/* The hero image */
+
 .hero-image {
-/* background-image: url("/images/photo-couch_2x.jpg");
-background-image: url("/images/photo-couch.jpg"); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
-/* Set a specific height */
-/* height: 20%; */
-width: 100%;
-
+height: 50%; 
+/* width: 100%; */
 /* Position and center the image to scale nicely on all screens */
-background-position: center;
+/* background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative;
+position: relative; */
 }
 
 /* Place text in the middle of the image */
@@ -88,8 +88,26 @@ color: white;
 .blue-box{
   width:80%;
   height:30em;
-  background-color: blue;
+  background-color: white;
   float: center;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.blue-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.step-description{
+  margin-left:15%;
+  margin-right:15%;
+  margin-top: 10%;
+
 }
