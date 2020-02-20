@@ -6,7 +6,7 @@ import Mainline from './components/mainline';
 class App extends Component {
 
   state = {
-    contacts: [],
+ //   contacts: [],
     instructions: [],
     mainline: []
     
@@ -14,12 +14,14 @@ class App extends Component {
 
  
   componentDidMount() {
+    /*
     fetch('http://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
     .then((data) => {
       this.setState({ contacts: data })
     })
     .catch(console.log)
+    */
 
 
     //and now to access the instructions
@@ -37,7 +39,7 @@ class App extends Component {
 
     return (
       <>
-      <td>More instructions</td>
+     
       <Mainline mainline = {this.state.mainline} />
       <Instructions instructions={this.state.instructions} />
       </>

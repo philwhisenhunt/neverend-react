@@ -3,7 +3,7 @@ import React from 'react'
 const Instructions = ({ instructions }) => {
   return (
     <div>
-      <center><h1>Contact List</h1></center>
+      <center><h1>How it Works</h1></center>
       {instructions.sort(
           function(a, b){
               return a.stepNumber - b.stepNumber;

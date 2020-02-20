@@ -1,6 +1,7 @@
 import React from 'react'
 import photoz from '../images/photo-couch_2x.jpg'
 
+
 const Mainline = ({ instructions }) => {
     return (
       <div>
@@ -17,12 +18,6 @@ const Mainline = ({ instructions }) => {
                     <button id="get-started">Get started</button>
                     </div>
                 </div>
-
-                <div class="step-holder">
-                    <h3 id="how-it-works">How it Works</h3>
-
-
-        </div>
        
       </div>
     )
