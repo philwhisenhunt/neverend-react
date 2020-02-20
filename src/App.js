@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Contacts from './components/contacts'
+import Contacts from './components/contacts';
+import Instructions from './components/instructions';
 
 class App extends Component {
 
@@ -23,7 +24,7 @@ class App extends Component {
     fetch('https://uqnzta2geb.execute-api.us-east-1.amazonaws.com/default/FrontEndCodeChallenge')
     .then(res => res.json())
     .then((data) => {
-      this.setState({instructions: data})
+      this.setState({ instructions: data })
     })
     .catch(console.log)
   }
@@ -31,11 +32,16 @@ class App extends Component {
 
 
   render() {
-    return (
-      <Contacts contacts={this.state.contacts}
-      Instructions instructions={this.state.instructions} />
 
+    return (
+      <Instructions instructions={this.state.instructions} />
     )
+    // return (
+    //   <Contacts contacts={this.state.contacts}/>
+
+    // )
+
+   
 
   }
   
