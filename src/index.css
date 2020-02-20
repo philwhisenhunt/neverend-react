@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  margin: 0px;
+}
+.calling{
+max-width: 1200px;
+object-fit: contain;
+}
+
+#get-started{
+  background-color: #47E4C2; 
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: .8em;;
+}
+
+#get-started:hover{
+  background: rgb(57, 184, 157);
+}
+
+
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+background-image: url("/images/photo-couch_2x.jpg");
+
+/* Set a specific height */
+height: 100%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+text-align: left;
+position: absolute;
+top: 60%;
+left: 40%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+.navigator{
+  background-color: #212121; 
+  color: #47E4C2;
+}
+
+.step-holder{
+  background-color: white;
+  height: 40em;
+}
+
+#how-it-works{
+  text-align: center;
+}
