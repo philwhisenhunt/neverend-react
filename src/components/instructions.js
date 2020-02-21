@@ -6,7 +6,7 @@ const Instructions = ({ instructions }) => {
       <center><h1>How it Works</h1></center>
       {instructions.sort(
           function(a, b){
-              return b.stepNumber - a.stepNumber;
+              return a.stepNumber - b.stepNumber;
           }
       ).map((instruction) => (
 
