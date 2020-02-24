@@ -25,7 +25,7 @@ const Instructions = ({ instructions }) => {
                 }
               )
                 [0].title}</p></center>
-              <p class="step-description">{instruction.versionContent[0].body}</p>
+             <center><p class="step-description">{instruction.versionContent[0].body}</p></center> 
             </div>
           </div>
           </div>
