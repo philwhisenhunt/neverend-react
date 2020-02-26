@@ -12,7 +12,7 @@ const Instructions = ({ instructions }) => {
       .map((instruction) => (
 
         <div class="card">
-                <div class="column">
+                
     
 
             <div class="card-body">
@@ -27,7 +27,7 @@ const Instructions = ({ instructions }) => {
                 [0].title}</p></center>
              <center><p class="step-description">{instruction.versionContent[0].body}</p></center> 
             </div>
-          </div>
+        
           </div>
           
       ))}

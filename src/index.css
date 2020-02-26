@@ -87,6 +87,8 @@ body, html {
   transform: translate(-50%, -50%);
   font-size: .7em;
   width: 40em;
+  padding: 5%;
+  margin: 5%;
   
 
 }
@@ -129,9 +131,17 @@ body, html {
   margin-right: 10%;
 }
 
-.column {
+/* .column {
+  width: 100%;
+ 
+} */
+
+.card-body{
   float: left;
   width: 25%;
+  -webkit-column-width: 300px;
+  -moz-column-width: 300px;
+  column-width: 300px;
 }
 
 .blue-box:after {
@@ -153,12 +163,12 @@ body, html {
 }
 
 body {
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 @media screen and (min-width: 320) {
   body {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
   }
 /* 
   .step-description{
@@ -166,10 +176,10 @@ body {
     min-width: 250px;
   } */
 
-  .column {
+  /* .column {
     float: left;
     width: 100%;
-  }
+  } */
 
   .blue-box{
     width:100%;
@@ -179,10 +189,19 @@ body {
     /* margin-left: 10%;
     margin-right: 10%; */
   }
+
+  .card{
+    /* float: left; */
+  
+    width: 100%;
+    /* -webkit-column-width: 300px;
+    -moz-column-width: 300px;
+    column-width: 300px; */
+  }
 }
 
 @media screen and (min-width: 800px) {
   body {
-    background-color: lavender;
+    /* background-color: lavender; */
   }
 }
