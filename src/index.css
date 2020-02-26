@@ -112,19 +112,37 @@ position: relative; */
 
 }
 
-.hero-text{
+.hero-text-container{
+  width: 50%;
+  max-width: 50%;
+  background-color: #47E4C2;
+  height: 100px;
   font-family: 'Lato';
   text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding-bottom: 20%;
+  
+}
+
+.hero-text{
+  /* font-family: 'Lato';
+text-align: left;
 position: absolute;
 top: 60%;
 left: 40%;
 transform: translate(-50%, -50%);
 color: white;
+padding-bottom: 20%; */
 
 }
 
 .hero-text h1{
   font-weight: 300;
+  font-size: 1.5em;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -136,4 +154,39 @@ color: white;
 .endless-logo{
   max-width: 400px;
 
+}
+
+body {
+  background-color: lightblue;
+}
+
+@media screen and (min-width: 320) {
+  body {
+    background-color: lightgreen;
+  }
+/* 
+  .step-description{
+    max-width: 300px;
+    min-width: 250px;
+  } */
+
+  .column {
+    float: left;
+    width: 100%;
+  }
+
+  .blue-box{
+    width:100%;
+    height:30em;
+    background-color: white;
+    float: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
 }
