@@ -6,7 +6,7 @@ const Mainline = ({ instructions }) => {
     return (
       <div>
             <div class="navigator">Endless</div>
-                <div class="hero-image">
+                <div class="hero-all-holder">
                     <img src={photoz} class="hero-image"/>
                     <div class="hero-text-container"> 
                       <div class="hero-text">
