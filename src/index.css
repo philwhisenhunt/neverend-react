@@ -31,7 +31,9 @@ object-fit: contain;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
-  font-size: .8em;;
+  font-size: .8em;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
 }
 
 #get-started:hover{
@@ -64,20 +66,14 @@ position: relative; */
 }
 
 /* Place text in the middle of the image */
-.hero-text {
-text-align: left;
-position: absolute;
-top: 60%;
-left: 40%;
-transform: translate(-50%, -50%);
-color: white;
-}
+
 
 .navigator{
   background-color: #212121; 
   color: #47E4C2;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
+  height: 2em;
 }
 
 .step-holder{
@@ -118,6 +114,23 @@ color: white;
 
 .hero-text{
   font-family: 'Lato';
+  text-align: left;
+position: absolute;
+top: 60%;
+left: 40%;
+transform: translate(-50%, -50%);
+color: white;
+
+}
+
+.hero-text h1{
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hero-text h4{
+  font-weight: 400;
 }
 
 .endless-logo{

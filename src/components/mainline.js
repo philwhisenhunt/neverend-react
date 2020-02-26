@@ -15,7 +15,7 @@ const Mainline = ({ instructions }) => {
                         <h1>Excitement Delivered Daily</h1>
 
                     <p>What’s the best way to shop for the latest video games and peripherals? How about never shopping at all? You'll get new stuff on your doorstep - every month.</p>
-                    <button id="get-started">Get started</button>
+                    <button id="get-started">GET STARTED</button>
                     </div>
                 </div>
        
