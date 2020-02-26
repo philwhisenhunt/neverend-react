@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 //import Contacts from './components/contacts';
 import Instructions from './components/instructions';
 import Mainline from './components/mainline';
+import SVG from './components/TelephoneIcon';
+import Endless_Logo from './components/endless';
 
 class App extends Component {
 
@@ -42,6 +44,8 @@ class App extends Component {
      
       <Mainline mainline = {this.state.mainline} />
       <Instructions instructions={this.state.instructions} />
+      <SVG />
+      <Endless_Logo />
       </>
     )
     // return (
