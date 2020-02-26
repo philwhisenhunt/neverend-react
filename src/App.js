@@ -44,8 +44,10 @@ class App extends Component {
      
       <Mainline mainline = {this.state.mainline} />
       <Instructions instructions={this.state.instructions} />
+      {/*
+      Add this back to get logo stuff going again
       <SVG />
-      <Endless_Logo />
+      <Endless_Logo /> */}
       </>
     )
     // return (
