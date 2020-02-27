@@ -115,6 +115,19 @@ body, html {
 
 .logo-holder{
   width: 100px;
+  fill: #47E4C2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .7em;
+  width: 40em;
+  padding: 5%; */
+  margin-left: 5px;
+
 
 
 }
@@ -145,9 +158,9 @@ body, html {
 .card-body{
   float: left;
   width: 25%;
-  -webkit-column-width: 300px;
-  -moz-column-width: 300px;
-  column-width: 300px;
+  /* -webkit-column-width: 300px;
+  -moz-column-width: 300px; */
+  /* column-width: 300px; */
 }
 
 .blue-box:after {
@@ -173,46 +186,20 @@ body, html {
 
 }
 
-body {
-  /* background-color: lightblue; */
-}
 
-@media screen and (min-width: 320) {
-  body {
-    /* background-color: lightgreen; */
-  }
-/* 
-  .step-description{
-    max-width: 300px;
-    min-width: 250px;
-  } */
 
-  /* .column {
-    float: left;
-    width: 100%;
-  } */
+@media screen and (max-width: 1000) {
 
-  .blue-box{
-    width:100%;
-    height:30em;
-    background-color: white;
-    float: center;
-    /* margin-left: 10%;
-    margin-right: 10%; */
-  }
 
-  .card{
-    /* float: left; */
   
-    width: 100%;
-    /* -webkit-column-width: 300px;
-    -moz-column-width: 300px;
-    column-width: 300px; */
-  }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   body {
     /* background-color: lavender; */
+  }
+
+  .card-body{
+    width:100%
   }
 }
