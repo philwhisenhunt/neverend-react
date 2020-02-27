@@ -1,4 +1,8 @@
 Instructions for building and starting app 
+
+## Note: You will need Node and NPM installed. 
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
 ## Run with NPM
 
 In the project directory, you can run:
