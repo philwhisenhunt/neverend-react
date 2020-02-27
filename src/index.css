@@ -60,35 +60,9 @@ body, html {
 }
 
 
-.hero-text-container{
-  /* width: 50%; */
-  /* max-width: 50%; */
-  background-color: #47E4C2;
-  height: 100px;
- 
-  text-align: left;
-  position: absolute;
-  top: 60%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  color: white;
-  padding-bottom: 20%;
-  
-}
 
-.hero-text{
-  font-family: 'Lato';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: .7em;
-  width: 40em;
-  padding: 5%;
-  margin: 5%;
-  
 
-}
+
 
 .hero-text h1{
   /* font-weight: 300;
@@ -176,14 +150,7 @@ body, html {
 }
 
 
-
-@media screen and (max-width: 1000) {
-
-
-  
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 599px) {
   body {
     /* background-color: lavender; */
   }
@@ -191,4 +158,60 @@ body, html {
   .card-body{
     width:100%
   }
+
+ 
+  .hero-text{
+    font-family: 'Lato';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    font-size: .7em;
+    width: 70%;
+    padding: 5%;
+    margin: 5%;
+    
+  
+  }
+}
+
+@media screen and (min-width: 600px){
+  .hero-text{
+    font-family: 'Lato';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: .7em;
+    width: 40em;
+    padding: 5%;
+    margin: 5%;
+    
+  
+  }
+
+  .hero-text-container{
+    /* width: 50%; */
+    /* max-width: 50%; */
+    /* background-color: #47E4C2; */
+    height: 100px;
+   
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-bottom: 20%;
+    
+  }
+
+}
+
+.hero-text{
+  font-family: 'Lato';
+  font-size: .7em;
+  padding: 5%;
+
 }
