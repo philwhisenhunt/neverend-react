@@ -1,4 +1,4 @@
-Instructions for building and starting app 
+### Endless
 
 ## Note: You will need Node and NPM installed. 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
