@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-//import Contacts from './components/contacts';
 import Instructions from './components/instructions';
 import Mainline from './components/mainline';
-import SVG from './components/TelephoneIcon';
-import Endless_Logo from './components/endless';
 import { ReactComponent as Logo } from './logos/logo-endless.svg';
 
 
