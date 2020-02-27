@@ -113,6 +113,12 @@ body, html {
   height: 2em;
 }
 
+.logo-holder{
+  width: 100px;
+
+
+}
+
 .step-holder{
   background-color: blueviolet;
   height: 20px;
@@ -159,6 +165,11 @@ body, html {
 
 .endless-logo{
   max-width: 400px;
+
+}
+
+.Layer_1{
+  width: 400px;
 
 }
 

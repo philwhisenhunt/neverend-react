@@ -5,7 +5,7 @@ import photoz from '../images/photo-couch_2x.jpg'
 const Mainline = ({ instructions }) => {
     return (
       <div>
-            <div class="navigator">Endless</div>
+           
                 <div class="hero-all-holder">
                     <img src={photoz} class="hero-image"/>
                     <div class="hero-text-container"> 

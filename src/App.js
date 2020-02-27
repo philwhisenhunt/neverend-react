@@ -4,6 +4,8 @@ import Instructions from './components/instructions';
 import Mainline from './components/mainline';
 import SVG from './components/TelephoneIcon';
 import Endless_Logo from './components/endless';
+import { ReactComponent as Logo } from './logos/logo-endless.svg';
+
 
 class App extends Component {
 
@@ -41,7 +43,14 @@ class App extends Component {
 
     return (
       <>
-     
+        <div class="navigator">
+
+        <div class="logo-holder">
+        {/* Logo is an actual React component */}
+        <Logo />
+      </div>
+
+    </div>
       <Mainline mainline = {this.state.mainline} />
       <Instructions instructions={this.state.instructions} />
       {/*
