@@ -215,3 +215,9 @@ body, html {
   padding: 5%;
 
 }
+
+.green-line{
+  color: #47E4C2;
+  border: 1px solid #47E4C2;
+  margin: 1em;
+}

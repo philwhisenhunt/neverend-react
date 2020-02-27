@@ -18,6 +18,7 @@ const Instructions = ({ instructions }) => {
             <div class="card-body">
               
               <center><h1 class="card-subtitle mb-2 text-muted">0{instruction.stepNumber}</h1></center>
+              <hr class="green-line"></hr>
               <center><p class="card-text">{instruction.versionContent.sort(
                 function(a, b){
                   return new Date(b.effectiveDate) - new Date(a.effectiveDate);
